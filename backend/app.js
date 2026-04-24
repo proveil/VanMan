@@ -15,6 +15,11 @@ app.use(express.json());
 app.use(cookieParser());
 app.use("/api/v1/auth", userRoutes);
 
+if (process.env.NODE_ENV === "development") {
+  app.get("/", (req, res) => {
+    res.send("server is ready!");
+  });
+}
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join("../frontend/dist")));
 
