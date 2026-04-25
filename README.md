@@ -121,8 +121,7 @@ MAPS_API_KEY=your_maps_api_key
 ---
 
 ## 📸 Preview
-
-> UI screenshots and demo will be added soon.
+<img width="1983" height="793" alt="vann" src="https://github.com/user-attachments/assets/9ea5cbfa-2a75-4920-a81f-29c54aae85b2" />
 
 ---
 
